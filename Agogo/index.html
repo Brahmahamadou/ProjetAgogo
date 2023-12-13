@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>AGOGO</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css"
+    integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>AGOGO</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg border-bottom border-black">
-        <div class="container-fluid">
-          
-          <div class=" row  collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav d-flex justify-content-around">
-             <a class="nav-link text-white" href="#">20SEC</a>
-              <a class="nav-link text-white " href="#">CAPPUCINO 5</a>
-              <a class="nav-link text-white" href="#">THE 15</a>
-              <a class="nav-link text-white" href="#">PETIT DEJEUNER 20</a>
-              <a class="nav-link text-white" >DEJEUNER 20</a>
-            </div>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm border-bottom border-black">
+    <div class="container-fluid">
+      <div class=" row  collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav d-flex justify-content-around">
+          <a class="nav-link text-white " id="time1" href="#">20SEC</a>
+          <a class="nav-link text-white " id="time2" href="#">CAPPUCINO 5</a>
+          <a class="nav-link text-white" id="time3" href="#">THE 15</a>
+          <a class="nav-link text-white" id="time4" href="#">PETIT DEJEUNER 20</a>
+          <a class="nav-link text-white" id="time5" href="#">DEJEUNER 20</a>
         </div>
-      </nav>
-      <div class="container-fluide inpu">
-        <!-- <form>
-            <label for="select1">Premier choix :</label>
-            <select id="select1" name="select1">
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-            </select>
-        
-            <br>
-        
-            <label for="select2">Deuxième choix :</label>
-            <select id="select2" name="select2">
-              <option value="optionA">Option A</option>
-              <option value="optionB">Option B</option>
-              <option value="optionC">Option C</option>
-            </select>
-        
-            <br>
-        
-            <input type="submit" value="Soumettre">
-          </form> -->
-          
       </div>
-    <script src="index.js"></script>
+    </div>
+  </nav> 
+  <div class="container-fluide inpu">
+    <div class="rom">
+      <div class="inpuut">
+        <input type="number" placeholder="Enter time in minutes" name="" id="inputnumber">
+      </div>
+    </div>
+    <div class="row">
+      <div class="position-absolute d-flex justify-content-center text-white" id="time">
+        <span id="chrono">00:00:00</span>
+        <!-- <span id="hour">00</span>
+        <span id="#">:</span>
+        <span id="minutes">00</span>
+        <span id="#">:</span>
+        <span id="seconds">00</span> -->
+      </div>  
+    </div>
+    <div class="row">
+      <div class="texte">
+        <p>Be Back At 13:23:40</p>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
 </body>
+
 </html>

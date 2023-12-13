@@ -2,3 +2,34 @@ body{
     background-color: #49CE96;
     height: 100vh;
 }
+.inpuut{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.navbar-nav{
+    height: 30px;
+}
+.navbar-nav a{
+ cursor: pointer;
+}
+input{
+    padding-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#time span {
+    margin-top: 20rem;
+    font-size: 80px;
+}
+.texte{
+    position: absolute;
+    text-align: center;
+    margin-top: 28rem;
+    color: white;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+#time{
+    display: none;
+}
